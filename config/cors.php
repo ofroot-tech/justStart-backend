@@ -2,7 +2,8 @@
 return [
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://ofroot.technology'], // Replace with your frontend domain
+    'https://ofroot.technology',
+    'https://www.ofroot.technology',
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
